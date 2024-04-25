@@ -1,0 +1,32 @@
+
+<label for="product_id">Product ID</label>
+<input type="number" id="product_id" placeholder="Product ID" [(ngModel)]="producto.product_id">
+
+<label for="product_name">Product Name</label>
+<input type="text" id="product_name" placeholder="Product Name" [(ngModel)]="producto.product_name">
+
+<label for="supplier_id">Supplier ID</label>
+<input type="number" id="supplier_id" placeholder="Supplier ID" [(ngModel)]="producto.supplier_id">
+
+<label for="category_id">Category ID</label>
+<input type="number" id="category_id" placeholder="Category ID" [(ngModel)]="producto.category_id">
+
+<label for="quantity_per_unit">Quantity Per Unit</label>
+<input type="text" id="quantity_per_unit" placeholder="Quantity Per Unit" [(ngModel)]="producto.quantity_per_unit">
+
+<label for="unit_price">Unit Price</label>
+<input type="number" id="unit_price" placeholder="Unit Price" [(ngModel)]="producto.unit_price">
+
+<label for="units_in_stock">Units In Stock</label>
+<input type="number" id="units_in_stock" placeholder="Units In Stock" [(ngModel)]="producto.units_in_stock">
+
+<label for="units_on_order">Units On Order</label>
+<input type="number" id="units_on_order" placeholder="Units On Order" [(ngModel)]="producto.units_on_order">
+
+<label for="reorder_level">Reorder Level</label>
+<input type="number" id="reorder_level" placeholder="Reorder Level" [(ngModel)]="producto.reorder_level">
+
+<label for="discount">Discount</label>
+<input type="number" id="discount" placeholder="Discount" [(ngModel)]="producto.discount">
+
+<button (click)="agregarProducto()">Añadir</button>

@@ -1,0 +1,4 @@
+@for (producto of productos; track $index) {
+    <p>{{producto.product_id}} - {{producto.product_name}}</p>
+    <button (click)="deleteProducto(producto.product_id)">Eliminar</button>
+}
